@@ -1,5 +1,5 @@
 # Steapx
-Code Refactor for steap project
+![Code Refactor for steap project](https://gitee.com/Zychaowill/steap)
 
 - Improvement Point for status of project, meeting, etc.
 
