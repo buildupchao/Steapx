@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+   redis:
+     host: 127.0.0.1
+     port: 6379
+     password:
+   datasource:
+     driver-class-name: com.mysql.jdbc.Driver
+     url: jdbc:mysql://127.0.0.1:3306/steapx?characterEncoding=utf8
+     username: root
+     password: root
+   jpa:
+       database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+       database: mysql
+       generate-sql: true
+       show-sql: true
+       hibernate:
+          ddl-auto: update
+       properties:
+          hibernate:
+              format_sql: true     
